@@ -14,6 +14,8 @@
 		5CDEA0782880938200A7BB2B /* artbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA0762880938200A7BB2B /* artbook.xcdatamodeld */; };
 		5CDEA07A2880938200A7BB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA0792880938200A7BB2B /* Assets.xcassets */; };
 		5CDEA07D2880938200A7BB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA07B2880938200A7BB2B /* LaunchScreen.storyboard */; };
+		5CDEA0852880942B00A7BB2B /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA0842880942B00A7BB2B /* secondViewController.swift */; };
+		5CDEA0872880966A00A7BB2B /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA0862880966A00A7BB2B /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5CDEA0792880938200A7BB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CDEA07C2880938200A7BB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CDEA07E2880938200A7BB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDEA0842880942B00A7BB2B /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		5CDEA0862880966A00A7BB2B /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,12 @@
 				5CDEA06D2880938200A7BB2B /* AppDelegate.swift */,
 				5CDEA06F2880938200A7BB2B /* SceneDelegate.swift */,
 				5CDEA0712880938200A7BB2B /* ViewController.swift */,
+				5CDEA0842880942B00A7BB2B /* secondViewController.swift */,
 				5CDEA0732880938200A7BB2B /* Main.storyboard */,
 				5CDEA0792880938200A7BB2B /* Assets.xcassets */,
 				5CDEA07B2880938200A7BB2B /* LaunchScreen.storyboard */,
 				5CDEA07E2880938200A7BB2B /* Info.plist */,
+				5CDEA0862880966A00A7BB2B /* select.png */,
 				5CDEA0762880938200A7BB2B /* artbook.xcdatamodeld */,
 			);
 			path = artbook;
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CDEA07D2880938200A7BB2B /* LaunchScreen.storyboard in Resources */,
+				5CDEA0872880966A00A7BB2B /* select.png in Resources */,
 				5CDEA07A2880938200A7BB2B /* Assets.xcassets in Resources */,
 				5CDEA0752880938200A7BB2B /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				5CDEA0722880938200A7BB2B /* ViewController.swift in Sources */,
 				5CDEA06E2880938200A7BB2B /* AppDelegate.swift in Sources */,
 				5CDEA0782880938200A7BB2B /* artbook.xcdatamodeld in Sources */,
+				5CDEA0852880942B00A7BB2B /* secondViewController.swift in Sources */,
 				5CDEA0702880938200A7BB2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
