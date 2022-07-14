@@ -20,7 +20,7 @@ class secondViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        //Recognizers
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(gestureRecognizer)
         
