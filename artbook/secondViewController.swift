@@ -49,24 +49,30 @@ class secondViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     }
     
     @IBAction func saveButtonClicked(_ sender: Any) {
+       
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         let saveData = NSEntityDescription.insertNewObject(forEntityName: "Paintings", into: context)
         
         saveData.setValue(nameTextfield.text, forKey: "name")
         saveData.setValue(artistTextfield.text, forKey: "artist")
+        saveData.setValue(UUID(), forKey: "id")
+        
         if let year = Int(yearTextfield.text!){
             saveData.setValue(year, forKey: "year")
         }
-        let imagePress = imageView.image?.jpegData(compressionQuality: 0.5)
-        saveData.setValue(imagePress, forKey: "image")
-        saveData.setValue(UUID(), forKey: "id")
+        
+        let data = imageView.image?.jpegData(compressionQuality: 0.5)
+        saveData.setValue(data, forKey: "image")
+        
+        
+        
         
         do{
             try context.save()
             print("succes!")
         }catch{
-            print("fault!")
+            print("error!")
         }
     
     }
