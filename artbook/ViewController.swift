@@ -29,8 +29,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            
     
    
-    getData()
-        
+        getData()
+
         viewWillAppear(true)
         
         NotificationCenter.default.addObserver(self, selector: #selector(getData), name: NSNotification.Name("newData"), object: nil)
@@ -55,7 +55,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 if let id = result.value(forKey: "id") as? UUID{
                     self.idArray.append(id)
                 }
-                tableVİew.reloadData()
+                self.tableVİew.reloadData()
             }
         }catch{
             
@@ -66,6 +66,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         selectedPainting = ""
         performSegue(withIdentifier: "toSecondVC", sender: nil)
     }
+    //tableView 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell ()
         cell.textLabel?.text = nameArray[indexPath.row]
@@ -105,7 +106,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                         nameArray.remove(at: indexPath.row)
                         idArray.remove(at: indexPath.row)
                         self.tableVİew.reloadData()
+                        
+                        try context.save()
+
                     }
+
                 }
             }catch{
             }

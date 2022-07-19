@@ -50,6 +50,7 @@ class secondViewController: UIViewController,UIImagePickerControllerDelegate,UIN
                         imageView.image = image
                     }
                     
+                    
                         
                 }
             }catch{
