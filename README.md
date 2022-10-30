@@ -6,7 +6,9 @@
 * You can delete your saved items.
 
 ** You must select a photo from your library.
+
 ** You must fill all boxes.
+
 *** Click "SAVE" button after all.
 
 
