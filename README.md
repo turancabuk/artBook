@@ -9,11 +9,15 @@
 ** You must fill all boxes.
 *** Click "SAVE" button after all.
 
-<img width="351" alt="Ekran Resmi 2022-09-20 20 55 35" src="https://user-images.githubusercontent.com/98350672/191337712-0d7583e9-2ce7-4301-aa1c-bc652a72d8f2.png">
 
-<img width="346" alt="Ekran Resmi 2022-09-20 20 55 56" src="https://user-images.githubusercontent.com/98350672/191337823-52c40f22-3324-4b4a-bd6f-d2bcf8b0dce0.png">
 
-<img width="346" alt="Ekran Resmi 2022-09-20 21 06 35" src="https://user-images.githubusercontent.com/98350672/191337898-9000899c-9f3d-43b8-b8be-ca5592407c04.png">
+<img width="344" alt="Ekran Resmi 2022-10-30 15 49 27" src="https://user-images.githubusercontent.com/98350672/198880917-60bf49c5-2454-4b93-af6b-d5ab9610c977.png">
 
-<img width="340" alt="Ekran Resmi 2022-09-20 21 08 22" src="https://user-images.githubusercontent.com/98350672/191337903-d007f00a-bd28-4803-a176-40ce619fd48e.png">
+
+<img width="355" alt="Ekran Resmi 2022-10-30 15 49 36" src="https://user-images.githubusercontent.com/98350672/198880934-bfa67432-dd6a-4297-a6d0-c720e689bbe7.png">
+
+<img width="366" alt="Ekran Resmi 2022-10-30 15 52 20" src="https://user-images.githubusercontent.com/98350672/198880944-38ebad0e-9ba0-4752-877f-559eff0391b8.png">
+
+
+<img width="353" alt="Ekran Resmi 2022-10-30 15 52 28" src="https://user-images.githubusercontent.com/98350672/198880949-7a6e8409-68c7-4b2f-8709-2e5010a2555a.png">
 
